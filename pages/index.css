@@ -2,7 +2,12 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: "Inter", "Noto Serif", Arial, Times New Roman, sans-serif;
+  font-family:
+    "Inter",
+    "Noto Serif",
+    Arial,
+    Times New Roman,
+    sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -105,7 +110,7 @@
   margin-right: 80px;
 }
 
-.receitas {
+.recipes {
   background-color: #0a2850;
   background-image: url("../images/background_recipes.svg");
   background-size: cover;
