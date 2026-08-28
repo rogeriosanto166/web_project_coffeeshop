@@ -129,8 +129,8 @@
 
 .recipes__title {
   max-width: 580px;
-  margin: auto auto 24px 80px;
-  font-size: 40px;
+  margin: 100px auto 80px auto;
+  font-size: 44px;
 }
 
 .recipes__subtitle {
@@ -172,7 +172,6 @@
 }
 
 .reservation__form-container {
-  width: 385px;
   text-align: center;
   padding-bottom: 8px;
   color: #000000;
