@@ -129,8 +129,8 @@
 
 .recipes__title {
   max-width: 580px;
-  margin: 100px auto 80px auto;
-  font-size: 44px;
+  margin: auto auto 24px 80px;
+  font-size: 40px;
 }
 
 .recipes__subtitle {
@@ -141,7 +141,7 @@
 .recipes__videos {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 36px;
 }
 
 .recipes__video-item {
@@ -178,11 +178,12 @@
 }
 
 .reservation__title {
-  margin: 100px auto 80px auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 44px;
   line-height: 52px;
 }
 
