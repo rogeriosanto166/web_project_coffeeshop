@@ -159,7 +159,7 @@
   justify-content: space-between;
 }
 
-.reservas {
+.reservation {
   display: flex;
   justify-content: center;
   background-color: #d9e7ff;
@@ -171,18 +171,18 @@
   border-top: 60px;
 }
 
-.form-container {
+.form__container {
   width: 385px;
   text-align: center;
   padding-bottom: 8px;
   color: #000000;
 }
 
-.form__container-title {
+.reservation__title {
   margin: 100px auto 80px auto;
 }
 
-.form {
+.reservation__form {
   display: flex;
   flex-direction: column;
   text-align: left;
