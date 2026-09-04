@@ -168,18 +168,16 @@
   background-position: center;
   min-height: 100vh;
   color: white;
-  border-top: 60px;
 }
 
 .reservation__form-container {
   text-align: center;
   padding-bottom: 8px;
   color: #000000;
-  margin-top: 100px;
 }
 
 .reservation__title {
-  margin: auto auto 80px auto;
+  margin: 100px auto 80px auto;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
