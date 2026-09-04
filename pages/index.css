@@ -171,13 +171,14 @@
 }
 
 .reservation__form-container {
+  margin-top: 100px;
   text-align: center;
   padding-bottom: 8px;
   color: #000000;
 }
 
 .reservation__title {
-  margin: 100px auto 80px auto;
+  margin: 0 auto 80px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
