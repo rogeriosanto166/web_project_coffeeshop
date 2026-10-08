@@ -21,7 +21,7 @@
   flex-direction: column;
 }
 
-.footer__content_social {
+.footer__column_social {
   display: flex;
   gap: 20px;
   margin-left: 80px;
@@ -32,7 +32,7 @@
   height: 39px;
 }
 
-.footer__social-heading {
+.footer__social {
   margin: 0 0 20px 0;
   font-family: "Inter";
   font-style: normal;
