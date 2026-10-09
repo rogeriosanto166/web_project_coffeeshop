@@ -149,8 +149,14 @@
                 placeholder="1-8"
                 id="numero"
               />
-              <label class="form__label" for="data">Data e Hora *</label>
-              <input type="date" class="form__input" required id="data" />
+              <label class="form__label" for="data_hora">Data e Hora *</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                required
+                id="data_hora"
+                name="data_hora"
+              />
               <label for="email" class="form__label">Seu e-mail *</label>
               <input
                 type="email"
@@ -163,12 +169,15 @@
                 Reservar uma mesa
               </button>
               <div class="form__checkbox">
-                <input
-                  type="checkbox"
-                  id="termos"
-                  class="form__checkbox-input"
-                />
-                Eu concordo com os termos de uso
+                <label for="termos">
+                  <input
+                    type="checkbox"
+                    id="termos"
+                    required
+                    class="form__checkbox-input"
+                  />
+                  Eu concordo com os termos de uso
+                </label>
               </div>
             </form>
           </div>
@@ -176,7 +185,7 @@
       </main>
       <footer class="footer">
         <div class="footer__circle"></div>
-        <section id="footer" class="footer__content">
+        <section id="contactos" class="footer__content">
           <div class="footer__column">
             <img
               class="footer__logo"
